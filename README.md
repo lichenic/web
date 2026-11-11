@@ -1,6 +1,6 @@
 # Lichenic Web
 
-Work in progress.
+Work in progress. This branch uses **Fresh**.
 
 ### Usage
 
