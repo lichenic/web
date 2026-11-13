@@ -16,7 +16,7 @@ interface ButtonProps {
 
 function makeClasses(disabled: boolean,shape: string,size:string) {
     // TODO: Dynamically make classes based on disabled etc.
-    let styles = ["transition-all","duration-200"]
+    const styles = ["transition-all","duration-200"]
 
     switch (size) {
         case "sm": {
