@@ -17,7 +17,7 @@ export default function Button({
     return (
         <button
             disabled={disabled} onClick={onClick}
-            class="border-2 rounded-md p-4
+            class="border-2 rounded-md p-3
                 bg-surface border-border
                 hover:bg-surface-hover hover:border-border-hover hover:cursor-pointer
                 transition-all duration-200
