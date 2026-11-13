@@ -10,9 +10,14 @@
     --border: #b1a4b9;
     --border-hover: #9f8fa8;
 
-    --alt: #659dd8;
+    --secondary: #659dd8;
+    --secondary-hover: #5c91ca;
 
     --text: #070507;
+    --text-secondary: #272527;
+    --text-tertiary: #575557;
+
+
     --bg: #efe8f6;
 
     --surface: #fcf9ff;
@@ -29,9 +34,14 @@
         --border: #3b363e;
         --border-hover: #433d46;
 
-        --alt: #659dd8;
+        --secondary: #659dd8;
+        --secondary-hover: #5c91ca;
 
         --text: #efe8f6;
+        --text-secondary: #bfb8c6;
+        --text-tertiary: #9f98a6;
+
+
         --bg: #060506;
 
         --surface: #161516;
@@ -41,8 +51,12 @@
 
 @theme inline {
     --color-primary: var(--primary);
-    --color-alt: var(--alt);
+    --color-primary-hover: var(--primary-hover);
+    --color-secondary-hover: var(--secondary-hover);
+    --color-secondary: var(--secondary);
     --color-text: var(--text);
+    --color-text-secondary: var(--text-secondary);
+    --color-text-tertiary: var(--text-tertiary);
     --color-bg: var(--bg);
     --color-surface: var(--surface);
     --color-surface-hover: var(--surface-hover);
