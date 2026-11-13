@@ -13,6 +13,16 @@ export default define.page(function Home(ctx) {
       <Button>
         Hello, world!
       </Button>
+      <br />
+      <Button size="sm" disabled>
+        Hello, world!
+      </Button>
+      <Button size="md">
+        Hello, world!
+      </Button>
+      <Button size="lg">
+        Hello, world!
+      </Button>
     </div>
   );
 });
