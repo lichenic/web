@@ -11,7 +11,7 @@ interface ButtonProps {
 // TODO:
 // Prebuilt button types, button dimensions, sizes, etc
 
-function makeClasses({children,disabled,onClick,type,shape}: ButtonProps) {
+function makeClasses(disabled: boolean,shape: string) {
     // TODO: Dynamically make classes based on disabled etc.
     let styles = "border-2 p-3 transition-all duration-200 "
 
@@ -45,7 +45,7 @@ export default function Button({
     return (
         <button
             disabled={disabled} onClick={onClick} type={type}
-            class={makeClasses({children,disabled,onClick,type,shape})}
+            class={makeClasses(disabled,shape)}
         >
             {children}
         </button>
