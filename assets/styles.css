@@ -22,6 +22,9 @@
 
     --surface: #fcf9ff;
     --surface-hover: #ece9ef;
+
+
+    --disabled-gray: #e2cccc;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -46,6 +49,8 @@
 
         --surface: #161516;
         --surface-hover: #1e1c1e;
+
+        --disabled-gray: #1e1a1a;
     }
 }
 
@@ -62,4 +67,5 @@
     --color-surface-hover: var(--surface-hover);
     --color-border: var(--border);
     --color-border-hover: var(--border-hover);
+    --color-disabled-gray: var(--disabled-gray);
 }

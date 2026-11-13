@@ -12,7 +12,15 @@ interface ButtonProps {
 
 function makeClasses({children,disabled,onClick,type}: ButtonProps) {
     // TODO: Dynamically make classes based on disabled etc.
-    return "border-2 p-3 bg-surface border-border hover:bg-surface-hover hover:border-border-hover hover:cursor-pointer transition-all duration-200"
+    let styles = "border-2 p-3 transition-all duration-200 "
+
+    if (disabled) {
+        styles += "bg-disabled-gray border-border/50 hover:cursor-not-allowed text-text/50"
+    } else {
+        styles += "bg-surface border-border hover:bg-surface-hover hover:border-border-hover hover:cursor-pointer"
+    }
+    
+    return styles
 }
 
 export default function Button({
