@@ -5,6 +5,10 @@
     color-scheme: light;
 
     --primary: #a85bd0;
+    --primary-hover: #984bc0;
+
+    --border: #b1a4b9;
+    --border-hover: #9f8fa8;
 
     --alt: #659dd8;
 
@@ -12,19 +16,26 @@
     --bg: #efe8f6;
 
     --surface: #fcf9ff;
-    --surface-hover: #f7f0ff;
+    --surface-hover: #ece9ef;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
         color-scheme: dark;
 
-        --primary: #934fb8;
-        --alt: #5691cf;
-        --text: #ffffff;
-        --bg: #000000; /*temps*/
-        --surface: #111111;
-        --surface-hover: #0a0a0a;
+        --primary: #a85bd0;
+        --primary-hover: #984bc0;
+
+        --border: #3b363e;
+        --border-hover: #433d46;
+
+        --alt: #659dd8;
+
+        --text: #efe8f6;
+        --bg: #060506;
+
+        --surface: #161516;
+        --surface-hover: #1e1c1e;
     }
 }
 
@@ -35,4 +46,6 @@
     --color-bg: var(--bg);
     --color-surface: var(--surface);
     --color-surface-hover: var(--surface-hover);
+    --color-border: var(--border);
+    --color-border-hover: var(--border-hover);
 }
