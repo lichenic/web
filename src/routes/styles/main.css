@@ -41,7 +41,7 @@
 }
 
 body.dark {
-	--background: linear-gradient(135deg, #2d1838, #1e2d3d);
+	--background: linear-gradient(135deg, #110915, #090d11);
 	--panel: rgba(69, 69, 69, 0.6);
 	--panel-soft: rgba(80, 80, 80, 0.6);
 	--panel-solid: rgba(69, 69, 69, 0.85);
