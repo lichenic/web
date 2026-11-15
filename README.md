@@ -1,56 +1,25 @@
-# sv
+# Lichenic Web
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Work in progress. This branch uses **Svelte**.
 
-## Creating a project
+### Usage
 
-If you're seeing this, you've probably already done this step. Congrats!
+Make sure to install pnpm, then install dependencies:
 
-```sh
-# create a new project
-npx sv create my-app
+```bash
+pnpm i
 ```
 
-To recreate this project with the same configuration:
+Then start the dev server:
 
-```sh
-# recreate this project
-pnpm dlx sv@1.3.0 create --template minimal --no-types --add prettier eslint sveltekit-adapter="adapter:auto" --install pnpm web-svelte
+```bash
+pnpm dev
 ```
 
-## Adding features
+This will watch the project directory and restart as necessary.
+<hr>
+<i style="font-size: 5px;">The logo used is temporary don't crucify me for it</i>
 
-Add features to your project with `sv add`:
+## Licence
 
-```sh
-npx sv add
-```
-
-For example, to add Tailwind CSS:
-
-```sh
-npx sv add tailwindcss
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Lichenic Client is available under the GNU Affero General Public Licence.
