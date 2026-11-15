@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: sveltekit-app
+    container_name: lichenic-client
     restart: unless-stopped
     ports:
       - '5174:5174'
