@@ -17,8 +17,6 @@ pnpm dev
 ```
 
 This will watch the project directory and restart as necessary.
-<hr>
-<i style="font-size: 5px;">The logo used is temporary don't crucify me for it</i>
 
 ## Licence
 
